@@ -13,4 +13,8 @@ func main() {
 	fmt.Println(6 | 11)
 	fmt.Println(6 ^ 11)
 	fmt.Println(6 &^ 11)
+	a := 0
+	if a > 0 && (10/a) > 1 {
+		fmt.Println("OK")
+	}
 }
